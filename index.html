@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Parejas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body>
+    <header>
+
+        <h1>Juego de Parejas</h1>
+        <!-- Selector de número de cartas -->
+        <label for="number-select">Selecciona el número de cartas:</label>
+        <div id="selection">
+            <select id="number-select">
+                <option value="0">0</option>
+
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+            </select>
+            <button id="play-button">Jugar</button>
+            <div id="counter">
+                00:00:00
+            </div>
+        </div>
+        
+    </header>
+    <!-- Contenedor de cartas -->
+    <div id="card-container">
+        <!-- Las cartas se generan aquí -->
+    </div>
+
+</body>
+
+</html>
